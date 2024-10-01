@@ -3,64 +3,1091 @@ POST http://localhost:3000/generate-pdf
 Content-Type: application/json
 
 {
-  "headers": [
-    {
-      "key": "1",
-      "info1": "informação 1 do header 1",
-      "info2": "informação 2 do header 1"
-    },
-    {
-      "key": "2",
-      "info1": "informação 1 do header 2",
-      "info2": "informação 2 do header 2"
-    }
-  ],
   "data": [
-    { "param": "Nome", "value": "João", "header": "1"},
-    { "param": "Nome", "value": "João", "header": "1"},
-    { "param": "Nome", "value": "João", "header": "1"},
-    { "param": "Nome", "value": "João", "header": "1"},
-    { "param": "Nome", "value": "João", "header": "1"},
-    { "param": "Nome", "value": "João", "header": "1"},
-    { "param": "Nome", "value": "João", "header": "1"},
-    { "param": "Nome", "value": "João", "header": "1"},
-    { "param": "Nome", "value": "João", "header": "1"},
-    { "param": "Nome", "value": "João", "header": "1"},
-    { "param": "Nome", "value": "João", "header": "1"},
-    { "param": "Nome", "value": "João", "header": "1"},
-    { "param": "Nome", "value": "João", "header": "1"},
-    { "param": "Nome", "value": "João", "header": "1"},
-    { "param": "Nome", "value": "João", "header": "1"},
-    { "param": "Nome", "value": "João", "header": "1"},
-    { "param": "Nome", "value": "João", "header": "1"},
-    { "param": "Nome", "value": "João", "header": "1"},
-    { "param": "Nome", "value": "João", "header": "1"},
-    { "param": "Nome", "value": "João", "header": "1"},
-    { "param": "Nome", "value": "João", "header": "1"},
-    { "param": "Nome", "value": "João", "header": "1"},
-    { "param": "Nome", "value": "João", "header": "1"},
-    { "param": "Nome", "value": "João", "header": "1"},
-    { "param": "Nome", "value": "João", "header": "1"},
-    { "param": "Nome", "value": "João", "header": "1"},
-    { "param": "Nome", "value": "João", "header": "1"},
-
-    { "param": "Nome", "value": "João", "header": "2"},
-    { "param": "Nome", "value": "João", "header": "2"},
-    { "param": "Nome", "value": "João", "header": "2"},
-    { "param": "Nome", "value": "João", "header": "2"},
-    { "param": "Nome", "value": "João", "header": "2"},
-    { "param": "Nome", "value": "João", "header": "2"},
-    { "param": "Nome", "value": "João", "header": "2"},
-    { "param": "Nome", "value": "João", "header": "2"},
-    { "param": "Nome", "value": "João", "header": "2"},
-    { "param": "Nome", "value": "João", "header": "2"},
-    { "param": "Nome", "value": "João", "header": "2"},
-    { "param": "Nome", "value": "João", "header": "2"},
-    { "param": "Nome", "value": "João", "header": "2"},
-    { "param": "Nome", "value": "João", "header": "2"},
-    { "param": "Nome", "value": "João", "header": "2"},
-    { "param": "Nome", "value": "João", "header": "2"},
-    { "param": "Nome", "value": "João", "header": "2"},
-    { "param": "Nome", "value": "João", "header": "2"}
-  ]
+  {
+    "isFreeSample": null,
+    "language": "PT",
+    "company_id": 1,
+    "company_name": "SOORO RENNER NUTRIÇÃO S/A - MATRIZ",
+    "language_description": "Português",
+    "id_product": "P100069",
+    "description_product": "WPC80 - Concentrado Proteico De Soro De Leite Em Pó 80%",
+    "type": "NF",
+    "batch": "P12301040142",
+    "id_partner": "C00532",
+    "description_partner": "Hexus Foods Ltda",
+    "address_partner": "RodoviaRS 240, km 6,407  93180000-Portão-RS BRASIL",
+    "certificate_review": "00",
+    "item_specification": "P1-ET-CQ-058",
+    "quantity": 40,
+    "number_nf": 126633,
+    "date_manufacturing": "17/12/2023",
+    "date_due": "17/12/2025",
+    "date_test": "Invalid Date",
+    "date_print": "01/10/2024",
+    "comments": null,
+    "responsible_signature": "",
+    "responsible_name": "Iriane J. Henrichsen da Silva",
+    "responsible_post": "Coordenadora de Controle de Qualidade",
+    "description_company": "Sooro Renner Nutrição S/A SIF 1328",
+    "address": "(BR 163, Km 283,8 - Marechal Cândido Rondon/PR - CEP 85960-000) ",
+    "date_approval": "13/02/2019",
+    "form_review": "00",
+    "responsible_register": "P1-RC-CQ-071",
+    "item_table": [
+      {
+        "method_description": "ISO 8586:2016; 13299:2017; 5492:2017",
+        "parameter_description": "¹Aspecto, ¹Cor, ¹Sabor e ¹Odor",
+        "specification": "¹Aspecto, ¹Cor, ¹Sabor e ¹Odor",
+        "result": "Característico",
+        "parameter_id": "U_1_Aspecto",
+        "sequence": 1
+      },
+      {
+        "method_description": "Gravimetria por balança halogenada - Isengard, Prager (2003)",
+        "parameter_description": "¹Umidade (%)",
+        "specification": "Gravimetria por balança halogenada - Isengard, Prager, (  ",
+        "result": "4,14",
+        "parameter_id": "U_4_Umidade1",
+        "sequence": 2
+      },
+      {
+        "method_description": "ISO 8967:2005 (IDF 134:2005)",
+        "parameter_description": "¹Densidade compactada (g/cm³ ",
+        "specification": "¹Densidade compactada (g/cm³",
+        "result": "-",
+        "parameter_id": "U_29_DensidadeCompac",
+        "sequence": 3
+      },
+      {
+        "method_description": "ISO 11869:2012 (IDF 150); AOAC 947.05",
+        "parameter_description": "Acidez (% ácido lático) ",
+        "specification": "Acidez (% ácido lático)     ",
+        "result": "1,46",
+        "parameter_id": "U_6_Acidez",
+        "sequence": 4
+      },
+      {
+        "method_description": "Diferenciado Titulação Fenolfetaleína",
+        "parameter_description": "¹Acidez (% de ácido lático diferenciado)",
+        "specification": "¹Acidez (% de ácido lático diferenciado)",
+        "result": "0,08",
+        "parameter_id": "U_7_AcidezL",
+        "sequence": 5
+      },
+      {
+        "method_description": "Método Mojonnier - ISO 1736:2008",
+        "parameter_description": "Gordura(%) ",
+        "specification": "Gordura Saturada ",
+        "result": "3,00",
+        "parameter_id": "U_31_Gordura",
+        "sequence": 6
+      },
+      {
+        "method_description": "Adaptado de IDF129A:2005 - ISO8156:2005",
+        "parameter_description": "¹Insolubilidade (mL)",
+        "specification": "¹Insolubilidade (mL)",
+        "result": "0,05",
+        "parameter_id": "U_26_Insolubilidade",
+        "sequence": 7
+      },
+      {
+        "method_description": "MAPA, 2019",
+        "parameter_description": "pH (Solução 10%",
+        "specification": "pH (Solução 10%",
+        "result": "6,42",
+        "parameter_id": "U_24_pHSolucao",
+        "sequence": 8
+      },
+      {
+        "method_description": "Gravimetria - ISO 5545 - IDF90 (2008)",
+        "parameter_description": "Cinzas (sais minerais %) ",
+        "specification": "Cinzas (sais minerais %) ",
+        "result": "4,69",
+        "parameter_id": "U_9_Cinzas",
+        "sequence": 9
+      },
+      {
+        "method_description": "Método Dumas - LECO, 2014",
+        "parameter_description": "¹Proteína Base Úmida ",
+        "specification": "base umida ",
+        "result": "33,77",
+        "parameter_id": "U_11_ProteinaBU",
+        "sequence": 10
+      },
+      {
+        "method_description": "Cromatografia (HPLC)",
+        "parameter_description": "Teor de Lactose ",
+        "specification": "Teor de Lactose ",
+        "result": "54,40",
+        "parameter_id": "U_10_TeorLactose",
+        "sequence": 11
+      },
+      {
+        "method_description": "Diferença (% Base úmida*100)/(100- %Umidade)",
+        "parameter_description": "Diferença (% Base úmida*100)/(100- %Umidade)",
+        "specification": "Diferença (% Base úmida*100)/(100- %Umidade)",
+        "result": "35,23",
+        "parameter_id": "U_12_ProteinaBS",
+        "sequence": 12
+      },
+      {
+        "method_description": "American Dry Products Institute (ADPI) - 1990",
+        "parameter_description": "Sedimentos (disco A, B ou C)",
+        "specification": "Sedimentos (disco A, B ou C)",
+        "result": "A",
+        "parameter_id": "U_13_Sendimentos",
+        "sequence": 13
+      },
+      {
+        "method_description": "GEA NIRO METHOD N° 6A, 2005",
+        "parameter_description": "Dispersibilidade ",
+        "specification": "Dispersibilidade ",
+        "result": "-",
+        "parameter_id": "U_30_Dispersib",
+        "sequence": 14
+      },
+      {
+        "method_description": "ISO 4833-2 (2013)",
+        "parameter_description": "Aeróbios Mesófilos ",
+        "specification": "Aeróbios Mesófilos /(UFC)",
+        "result": "120",
+        "parameter_id": "U_14_AerobiosM",
+        "sequence": 15
+      },
+      {
+        "method_description": "Plaqueamento - UFC/g - APHA:2004 CAP. 07",
+        "parameter_description": "Coliformes totais (UFC/g)",
+        "specification": "Coliformes totais (UFC/g)",
+        "result": "<0,3",
+        "parameter_id": "U_32_ColiformesT",
+        "sequence": 16
+      },
+      {
+        "method_description": "ISO 21528-2 (2020)",
+        "parameter_description": "¹Enterobactérias ",
+        "specification": "¹Enterobactérias ",
+        "result": "<10",
+        "parameter_id": "U_17_Enterobacterias",
+        "sequence": 17
+      },
+      {
+        "method_description": "ISO 7932 (2016)",
+        "parameter_description": "¹Bacillus ",
+        "specification": "¹Bacillus ",
+        "result": "<100",
+        "parameter_id": "U_19_Bacillus",
+        "sequence": 18
+      },
+      {
+        "method_description": "ISO 6888-1 (2019)",
+        "parameter_description": "Estafilococos Coagulase Positiva (UFC/g)",
+        "specification": "Estafilococos Coagulase Positiva (UFC/g)",
+        "result": "Ausente",
+        "parameter_id": "U_40_Enteroxinas",
+        "sequence": 19
+      },
+      {
+        "method_description": "Plaqueamento - Compact Dry YM (AOAC N° 100401, 2014)",
+        "parameter_description": "¹Bolores e leveduras (UFC/g)",
+        "specification": "¹Bolores e leveduras (UFC/g)",
+        "result": "<10",
+        "parameter_id": "U_18_Bolores",
+        "sequence": 20
+      },
+      {
+        "method_description": "MDS 3M - AOAC 2016.01",
+        "parameter_description": "Salmonella sp (valor garantido)",
+        "specification": "¹Salmonella sp (valor garantido)",
+        "result": "Ausente",
+        "parameter_id": "U_20_Salmonella",
+        "sequence": 21
+      },
+      {
+        "method_description": "MDS 3M - AOAC 2016.08",
+        "parameter_description": "Listeria monocytogenes (valor garantido ",
+        "specification": "Listeria monocytogenes (valor garantido ",
+        "result": "Ausente",
+        "parameter_id": "U_21_Listeria",
+        "sequence": 22
+      },
+      {
+        "method_description": "Técnica do NMP (Detecção) - ISO 7251:2005",
+        "parameter_description": "¹Escherichia coli (valor garantido)",
+        "specification": "¹Escherichia coli (valor garantido)",
+        "result": "Ausente",
+        "parameter_id": "U_28_Escherichia",
+        "sequence": 23
+      },
+      {
+        "method_description": "Instrução Normativa N° 05 DE 23/04/2019 - PNCRC 2019",
+        "parameter_description": "Resíduos de Antibióticos (valor garantido)",
+        "specification": "Resíduos de Antibióticos (valor garantido)",
+        "result": "Ausente",
+        "parameter_id": "U_39_Residuos",
+        "sequence": 24
+      },
+      {
+        "method_description": "Fotômetro de Chama, Digimed.",
+        "parameter_description": "Sódio (mg/100g)",
+        "specification": "Sódio (mg/100g)",
+        "result": "360",
+        "parameter_id": "U_36_Sodio",
+        "sequence": 25
+      },
+      {
+        "method_description": "VIDAS Staph Enterotoxin II - versão 05 (2010) - Lab. Externo",
+        "parameter_description": "²Metais Pesados (Arsenio, Cadmio, Chumbo e Cobre) (mg/kg) (valor",
+        "specification": "²Metais Pesados (Arsenio, Cadmio, Chumbo e Cobre) (mg/kg) (valor",
+        "result": "< Limite Máximo Tolerado",
+        "parameter_id": "U_41_MetaisPesado",
+        "sequence": 26
+      },
+      {
+        "method_description": "Laboratório Externo",
+        "parameter_description": "Micotoxinas (Aflatoxina M1) (mcg/kg) (valor",
+        "specification": "Micotoxinas (Aflatoxina M1) (mcg/kg) (valor garantido)",
+        "result": "< Limite Máximo Tolerado",
+        "parameter_id": "U_42_Micotoxina",
+        "sequence": 27
+      }
+    ],
+    "number_certificate": "53622"
+  },
+  {
+    "isFreeSample": null,
+    "language": "PT",
+    "company_id": 1,
+    "company_name": "SOORO RENNER NUTRIÇÃO S/A - MATRIZ",
+    "language_description": "Português",
+    "id_product": "P100115",
+    "description_product": "SDM - Soro De Leite Em Po Parcialmente Desmineralizado",
+    "type": "NF",
+    "batch": "PS23010068",
+    "id_partner": "C00532",
+    "description_partner": "Hexus Foods Ltda",
+    "address_partner": "RodoviaRS 240, km 6,407  93180000-Portão-RS BRASIL",
+    "certificate_review": "00",
+    "item_specification": "P1-ET-CQ-058",
+    "quantity": 1500,
+    "number_nf": 126633,
+    "date_manufacturing": "02/09/2023",
+    "date_due": "02/09/2024",
+    "date_test": "02/09/2023",
+    "date_print": "01/10/2024",
+    "comments": "Teor de sódio valor garantido",
+    "responsible_name": "Iriane J. Henrichsen da Silva",
+    "responsible_post": "Coordenadora de Controle de Qualidade",
+    "description_company": "Sooro Renner Nutrição S/A SIF 1328",
+    "address": "(BR 163, Km 283,8 - Marechal Cândido Rondon/PR - CEP 85960-000) ",
+    "date_approval": "13/02/2019",
+    "form_review": "00",
+    "responsible_register": "P1-RC-CQ-071",
+    "item_table": [
+      {
+        "method_description": "ISO 8586:2016; 13299:2017; 5492:2017",
+        "parameter_description": "¹Aspecto, ¹Cor, ¹Sabor e ¹Odor ",
+        "specification": "¹Aspecto, ¹Cor, ¹Sabor e ¹Odor ",
+        "result": "Característico",
+        "parameter_id": "U_1_Aspecto",
+        "sequence": 1
+      },
+      {
+        "method_description": "Gravimetria por balança halogenada - Isengard, Prager (2003)",
+        "parameter_description": "¹Umidade (%) ",
+        "specification": "Gravimetria por balança halogenada - Isengard, Prager, ( ",
+        "result": "5,39",
+        "parameter_id": "U_4_Umidade1",
+        "sequence": 2
+      },
+      {
+        "method_description": "ISO 8967:2005 (IDF 134:2005)",
+        "parameter_description": "¹Densidade compactada (g/cm³ ",
+        "specification": "¹Densidade compactada (g/cm³ ",
+        "result": "0,418",
+        "parameter_id": "U_29_DensidadeCompac",
+        "sequence": 3
+      },
+      {
+        "method_description": "ISO 11869:2012 (IDF 150); AOAC 947.05",
+        "parameter_description": "Acidez (% ácido lático)",
+        "specification": "Acidez (% ácido lático)",
+        "result": "1,45",
+        "parameter_id": "U_6_Acidez",
+        "sequence": 4
+      },
+      {
+        "method_description": "Diferenciado Titulação Fenolfetaleína",
+        "parameter_description": "¹Acidez (% de ácido lático diferenciado)",
+        "specification": "¹Acidez (% de ácido lático diferenciado)",
+        "result": "0,09",
+        "parameter_id": "U_7_AcidezL",
+        "sequence": 5
+      },
+      {
+        "method_description": "Método Mojonnier - ISO 1736:2008",
+        "parameter_description": "Gordura(%) ",
+        "specification": "Gordura Saturada ",
+        "result": "5,26",
+        "parameter_id": "U_31_Gordura",
+        "sequence": 6
+      },
+      {
+        "method_description": "Adaptado de IDF129A:2005 - ISO8156:2005",
+        "parameter_description": "¹Insolubilidade (mL)",
+        "specification": "¹Insolubilidade (mL)",
+        "result": "0,10",
+        "parameter_id": "U_26_Insolubilidade",
+        "sequence": 7
+      },
+      {
+        "method_description": "Gravimetria - ISO 5545 - IDF90 (2008)",
+        "parameter_description": "Cinzas (sais minerais %) ",
+        "specification": "Cinzas (sais minerais %) ",
+        "result": "3,40",
+        "parameter_id": "U_9_Cinzas",
+        "sequence": 8
+      },
+      {
+        "method_description": "Método Dumas - LECO, 2014",
+        "parameter_description": "¹Proteína Base Úmida ",
+        "specification": "base umida ",
+        "result": "77,88",
+        "parameter_id": "U_11_ProteinaBU",
+        "sequence": 9
+      },
+      {
+        "method_description": "Cromatografia (HPLC)",
+        "parameter_description": "Teor de Lactose ",
+        "specification": "Teor de Lactose ",
+        "result": "9,40",
+        "parameter_id": "U_10_TeorLactose",
+        "sequence": 10
+      },
+      {
+        "method_description": "MAPA, 2019",
+        "parameter_description": "pH (Solução 10%",
+        "specification": "pH (Solução 10%",
+        "result": "6,51",
+        "parameter_id": "U_24_pHSolucao",
+        "sequence": 11
+      },
+      {
+        "method_description": "Diferença (% Base úmida*100)/(100- %Umidade)",
+        "parameter_description": "Diferença (% Base úmida*100)/(100- %Umidade)",
+        "specification": "Diferença (% Base úmida*100)/(100- %Umidade)",
+        "result": "82,32",
+        "parameter_id": "U_12_ProteinaBS",
+        "sequence": 12
+      },
+      {
+        "method_description": "American Dry Products Institute (ADPI) - 1990",
+        "parameter_description": "Sedimentos (disco A, B ou C)",
+        "specification": "Sedimentos (disco A, B ou C)",
+        "result": "A",
+        "parameter_id": "U_13_Sendimentos",
+        "sequence": 13
+      },
+      {
+        "method_description": "GEA NIRO METHOD N° 6A, 2005",
+        "parameter_description": "Dispersibilidade ",
+        "specification": "Dispersibilidade ",
+        "result": "93,76",
+        "parameter_id": "U_30_Dispersib",
+        "sequence": 14
+      },
+      {
+        "method_description": "ISO 4833-2 (2013)",
+        "parameter_description": "Aeróbios Mesófilos ",
+        "specification": "Aeróbios Mesófilos /(UFC)",
+        "result": "21000",
+        "parameter_id": "U_14_AerobiosM",
+        "sequence": 15
+      },
+      {
+        "method_description": "Plaqueamento - UFC/g - APHA:2004 CAP. 07",
+        "parameter_description": "Coliformes totais (UFC/g)",
+        "specification": "Coliformes totais (UFC/g)",
+        "result": "<10",
+        "parameter_id": "U_32_ColiformesT",
+        "sequence": 16
+      },
+      {
+        "method_description": "ISO 21528-2 (2020)",
+        "parameter_description": "¹Enterobactérias ",
+        "specification": "¹Enterobactérias ",
+        "result": "<10",
+        "parameter_id": "U_17_Enterobacterias",
+        "sequence": 17
+      },
+      {
+        "method_description": "ISO 6888-1 (2019)",
+        "parameter_description": "Estafilococos Coagulase Positiva (UFC/g)",
+        "specification": "Estafilococos Coagulase Positiva (UFC/g)",
+        "result": "Ausente",
+        "parameter_id": "U_40_Enteroxinas",
+        "sequence": 18
+      },
+      {
+        "method_description": "Plaqueamento - Compact Dry YM (AOAC N° 100401, 2014)",
+        "parameter_description": "¹Bolores e leveduras (UFC/g)",
+        "specification": "¹Bolores e leveduras (UFC/g)",
+        "result": "<10",
+        "parameter_id": "U_18_Bolores",
+        "sequence": 19
+      },
+      {
+        "method_description": "ISO 7932 (2016)",
+        "parameter_description": "¹Bacillus ",
+        "specification": "¹Bacillus ",
+        "result": "400",
+        "parameter_id": "U_19_Bacillus",
+        "sequence": 20
+      },
+      {
+        "method_description": "MDS 3M - AOAC 2016.01",
+        "parameter_description": "Salmonella sp (valor garantido)",
+        "specification": "¹Salmonella sp (valor garantido)",
+        "result": "Ausente",
+        "parameter_id": "U_20_Salmonella",
+        "sequence": 21
+      },
+      {
+        "method_description": "MDS 3M - AOAC 2016.08",
+        "parameter_description": "Listeria monocytogenes (valor garantido ",
+        "specification": "Listeria monocytogenes (valor garantido ",
+        "result": "Ausente",
+        "parameter_id": "U_21_Listeria",
+        "sequence": 22
+      },
+      {
+        "method_description": "Laboratório Externo",
+        "parameter_description": "Micotoxinas (Aflatoxina M1) (mcg/kg) (valor",
+        "specification": "Micotoxinas (Aflatoxina M1) (mcg/kg) (valor garantido)",
+        "result": "< Limite Máximo Tolerado",
+        "parameter_id": "U_42_Micotoxina",
+        "sequence": 23
+      },
+      {
+        "method_description": "Técnica do NMP (Detecção) - ISO 7251:2005",
+        "parameter_description": "¹Escherichia coli (valor garantido)",
+        "specification": "¹Escherichia coli (valor garantido)",
+        "result": "Ausente",
+        "parameter_id": "U_28_Escherichia",
+        "sequence": 24
+      },
+      {
+        "method_description": "Instrução Normativa N° 05 DE 23/04/2019 - PNCRC 2019",
+        "parameter_description": "Resíduos de Antibióticos (valor garantido)",
+        "specification": "Resíduos de Antibióticos (valor garantido)",
+        "result": "Ausente",
+        "parameter_id": "U_39_Residuos",
+        "sequence": 25
+      },
+      {
+        "method_description": "Fotômetro de Chama, Digimed.",
+        "parameter_description": "Sódio (mg/100g)",
+        "specification": "Sódio (mg/100g)",
+        "result": "156",
+        "parameter_id": "U_36_Sodio",
+        "sequence": 26
+      },
+      {
+        "method_description": "VIDAS Staph Enterotoxin II - versão 05 (2010) - Lab. Externo",
+        "parameter_description": "²Metais Pesados (Arsenio, Cadmio, Chumbo e Cobre) (mg/kg) (valor",
+        "specification": "²Metais Pesados (Arsenio, Cadmio, Chumbo e Cobre) (mg/kg) (valor",
+        "result": "< Limite Máximo Tolerado",
+        "parameter_id": "U_41_MetaisPesado",
+        "sequence": 27
+      },
+      {
+        "method_description": "AOAC 2007.06.2016",
+        "parameter_description": "pH",
+        "specification": "tewse 28 ",
+        "result": "6,51",
+        "parameter_id": "U_8_pH",
+        "sequence": 28
+      },
+      {
+        "method_description": "APHA (2015)",
+        "parameter_description": "Esporos Termófilos Aeróbios (UFC/g)",
+        "specification": "29 ",
+        "result": "-",
+        "parameter_id": "U_38_Esperos",
+        "sequence": 29
+      },
+      {
+        "method_description": "ISO 8586:2016; 13299:2017; 5492:2017",
+        "parameter_description": "Sedimentos Caramelizados",
+        "specification": "30 ",
+        "result": "6",
+        "parameter_id": "U_43_SedCaramelizado",
+        "sequence": 30
+      }
+    ],
+    "number_certificate": "53622"
+  },
+  {
+    "isFreeSample": null,
+    "language": "PT",
+    "company_id": 1,
+    "company_name": "SOORO RENNER NUTRIÇÃO S/A - MATRIZ",
+    "language_description": "Português",
+    "id_product": "P100069",
+    "description_product": "WPC80 - Concentrado Proteico De Soro De Leite Em Pó 80%",
+    "type": "NF",
+    "batch": "P12302040138",
+    "id_partner": "C00532",
+    "description_partner": "Hexus Foods Ltda",
+    "address_partner": "RodoviaRS 240, km 6,407  93180000-Portão-RS BRASIL",
+    "certificate_review": "00",
+    "item_specification": "P1-ET-CQ-058",
+    "quantity": 960,
+    "number_nf": 126633,
+    "date_manufacturing": "07/12/2023",
+    "date_due": "07/12/2025",
+    "date_test": "07/12/2023",
+    "date_print": "01/10/2024",
+    "comments": "Teor de Sódio Valor Garantido",
+    "responsible_name": "Iriane J. Henrichsen da Silva",
+    "responsible_post": "Coordenadora de Controle de Qualidade",
+    "description_company": "Sooro Renner Nutrição S/A SIF 1328",
+    "address": "(BR 163, Km 283,8 - Marechal Cândido Rondon/PR - CEP 85960-000) ",
+    "date_approval": "13/02/2019",
+    "form_review": "00",
+    "responsible_register": "P1-RC-CQ-071",
+    "item_table": [
+      {
+        "method_description": "ISO 8586:2016; 13299:2017; 5492:2017",
+        "parameter_description": "¹Aspecto, ¹Cor, ¹Sabor e ¹Odor ",
+        "specification": "¹Aspecto, ¹Cor, ¹Sabor e ¹Odor ",
+        "result": "Característico",
+        "parameter_id": "U_1_Aspecto",
+        "sequence": 1
+      },
+      {
+        "method_description": "Gravimetria por balança halogenada - Isengard, Prager (2003)",
+        "parameter_description": "¹Umidade (%) ",
+        "specification": "Gravimetria por balança halogenada - Isengard, Prager, (  ",
+        "result": "2,09",
+        "parameter_id": "U_4_Umidade1",
+        "sequence": 2
+      },
+      {
+        "method_description": "ISO 8967:2005 (IDF 134:2005)",
+        "parameter_description": "¹Densidade compactada (g/cm³ ",
+        "specification": "¹Densidade compactada (g/cm³ ",
+        "result": "-",
+        "parameter_id": "U_29_DensidadeCompac",
+        "sequence": 3
+      },
+      {
+        "method_description": "ISO 11869:2012 (IDF 150); AOAC 947.05",
+        "parameter_description": "Acidez (% ácido lático)",
+        "specification": "Acidez (% ácido lático)",
+        "result": "0,189",
+        "parameter_id": "U_6_Acidez",
+        "sequence": 4
+      },
+      {
+        "method_description": "Diferenciado Titulação Fenolfetaleína",
+        "parameter_description": "¹Acidez (% de ácido lático diferenciado)",
+        "specification": "¹Acidez (% de ácido lático diferenciado)",
+        "result": "0,06",
+        "parameter_id": "U_7_AcidezL",
+        "sequence": 5
+      },
+      {
+        "method_description": "Método Mojonnier - ISO 1736:2008",
+        "parameter_description": "Gordura(%) ",
+        "specification": "Gordura Saturada ",
+        "result": "0,76",
+        "parameter_id": "U_31_Gordura",
+        "sequence": 6
+      },
+      {
+        "method_description": "Adaptado de IDF129A:2005 - ISO8156:2005",
+        "parameter_description": "¹Insolubilidade (mL)",
+        "specification": "¹Insolubilidade (mL)",
+        "result": "0,01",
+        "parameter_id": "U_26_Insolubilidade",
+        "sequence": 7
+      },
+      {
+        "method_description": "Gravimetria - ISO 5545 - IDF90 (2008)",
+        "parameter_description": "Cinzas (sais minerais %) ",
+        "specification": "Cinzas (sais minerais %) ",
+        "result": "4,56",
+        "parameter_id": "U_9_Cinzas",
+        "sequence": 8
+      },
+      {
+        "method_description": "Método Dumas - LECO, 2014",
+        "parameter_description": "¹Proteína Base Úmida ",
+        "specification": "base umida ",
+        "result": "10,78",
+        "parameter_id": "U_11_ProteinaBU",
+        "sequence": 9
+      },
+      {
+        "method_description": "Cromatografia (HPLC)",
+        "parameter_description": "Teor de Lactose ",
+        "specification": "Teor de Lactose ",
+        "result": "82,07",
+        "parameter_id": "U_10_TeorLactose",
+        "sequence": 10
+      },
+      {
+        "method_description": "MAPA, 2019",
+        "parameter_description": "pH (Solução 10%",
+        "specification": "pH (Solução 10%",
+        "result": "6,30",
+        "parameter_id": "U_24_pHSolucao",
+        "sequence": 11
+      },
+      {
+        "method_description": "Diferença (% Base úmida*100)/(100- %Umidade)",
+        "parameter_description": "Diferença (% Base úmida*100)/(100- %Umidade)",
+        "specification": "Diferença (% Base úmida*100)/(100- %Umidade)",
+        "result": "11,00",
+        "parameter_id": "U_12_ProteinaBS",
+        "sequence": 12
+      },
+      {
+        "method_description": "American Dry Products Institute (ADPI) - 1990",
+        "parameter_description": "Sedimentos (disco A, B ou C)",
+        "specification": "Sedimentos (disco A, B ou C)",
+        "result": "A",
+        "parameter_id": "U_13_Sendimentos",
+        "sequence": 13
+      },
+      {
+        "method_description": "GEA NIRO METHOD N° 6A, 2005",
+        "parameter_description": "Dispersibilidade ",
+        "specification": "Dispersibilidade ",
+        "result": "-",
+        "parameter_id": "U_30_Dispersib",
+        "sequence": 14
+      },
+      {
+        "method_description": "ISO 4833-2 (2013)",
+        "parameter_description": "Aeróbios Mesófilos ",
+        "specification": "Aeróbios Mesófilos /(UFC)",
+        "result": "100",
+        "parameter_id": "U_14_AerobiosM",
+        "sequence": 15
+      },
+      {
+        "method_description": "Plaqueamento - UFC/g - APHA:2004 CAP. 07",
+        "parameter_description": "Coliformes totais (UFC/g)",
+        "specification": "Coliformes totais (UFC/g)",
+        "result": "<0,3",
+        "parameter_id": "U_32_ColiformesT",
+        "sequence": 16
+      },
+      {
+        "method_description": "ISO 21528-2 (2020)",
+        "parameter_description": "¹Enterobactérias ",
+        "specification": "¹Enterobactérias ",
+        "result": "<10",
+        "parameter_id": "U_17_Enterobacterias",
+        "sequence": 17
+      },
+      {
+        "method_description": "ISO 6888-1 (2019)",
+        "parameter_description": "Estafilococos Coagulase Positiva (UFC/g)",
+        "specification": "Estafilococos Coagulase Positiva (UFC/g)",
+        "result": "Ausente",
+        "parameter_id": "U_40_Enteroxinas",
+        "sequence": 18
+      },
+      {
+        "method_description": "Plaqueamento - Compact Dry YM (AOAC N° 100401, 2014)",
+        "parameter_description": "¹Bolores e leveduras (UFC/g)",
+        "specification": "¹Bolores e leveduras (UFC/g)",
+        "result": "<10",
+        "parameter_id": "U_18_Bolores",
+        "sequence": 19
+      },
+      {
+        "method_description": "ISO 7932 (2016)",
+        "parameter_description": "¹Bacillus ",
+        "specification": "¹Bacillus ",
+        "result": "<100",
+        "parameter_id": "U_19_Bacillus",
+        "sequence": 20
+      },
+      {
+        "method_description": "MDS 3M - AOAC 2016.01",
+        "parameter_description": "Salmonella sp (valor garantido)",
+        "specification": "¹Salmonella sp (valor garantido)",
+        "result": "Ausente",
+        "parameter_id": "U_20_Salmonella",
+        "sequence": 21
+      },
+      {
+        "method_description": "MDS 3M - AOAC 2016.08",
+        "parameter_description": "Listeria monocytogenes (valor garantido ",
+        "specification": "Listeria monocytogenes (valor garantido ",
+        "result": "Ausente",
+        "parameter_id": "U_21_Listeria",
+        "sequence": 22
+      },
+      {
+        "method_description": "Laboratório Externo",
+        "parameter_description": "Micotoxinas (Aflatoxina M1) (mcg/kg) (valor",
+        "specification": "Micotoxinas (Aflatoxina M1) (mcg/kg) (valor garantido)",
+        "result": "< Limite Máximo Tolerado",
+        "parameter_id": "U_42_Micotoxina",
+        "sequence": 23
+      },
+      {
+        "method_description": "Técnica do NMP (Detecção) - ISO 7251:2005",
+        "parameter_description": "¹Escherichia coli (valor garantido)",
+        "specification": "¹Escherichia coli (valor garantido)",
+        "result": "Ausente",
+        "parameter_id": "U_28_Escherichia",
+        "sequence": 24
+      },
+      {
+        "method_description": "Instrução Normativa N° 05 DE 23/04/2019 - PNCRC 2019",
+        "parameter_description": "Resíduos de Antibióticos (valor garantido)",
+        "specification": "Resíduos de Antibióticos (valor garantido)",
+        "result": "Ausente",
+        "parameter_id": "U_39_Residuos",
+        "sequence": 25
+      },
+      {
+        "method_description": "Fotômetro de Chama, Digimed.",
+        "parameter_description": "Sódio (mg/100g)",
+        "specification": "Sódio (mg/100g)",
+        "result": "369",
+        "parameter_id": "U_36_Sodio",
+        "sequence": 26
+      },
+      {
+        "method_description": "VIDAS Staph Enterotoxin II - versão 05 (2010) - Lab. Externo",
+        "parameter_description": "²Metais Pesados (Arsenio, Cadmio, Chumbo e Cobre) (mg/kg) (valor",
+        "specification": "²Metais Pesados (Arsenio, Cadmio, Chumbo e Cobre) (mg/kg) (valor",
+        "result": "< Limite Máximo Tolerado",
+        "parameter_id": "U_41_MetaisPesado",
+        "sequence": 27
+      },
+      {
+        "method_description": "American Dry Products Institute -ADPI (1990)",
+        "parameter_description": "Cloretos (%)",
+        "specification": "312 ",
+        "result": "0,25",
+        "parameter_id": "U_27_Cloretos",
+        "sequence": 28
+      },
+      {
+        "method_description": "APHA (2015)",
+        "parameter_description": "Higro Caking",
+        "specification": "12312 ",
+        "result": "-",
+        "parameter_id": "U_47_HigroCaking",
+        "sequence": 29
+      },
+      {
+        "method_description": "AOAC (HPLC)",
+        "parameter_description": "Higro Helco",
+        "specification": "312312 ",
+        "result": "-",
+        "parameter_id": "U_48_HigroRelco",
+        "sequence": 30
+      },
+      {
+        "method_description": "American Dry Products Institute (ADPI) - 1990",
+        "parameter_description": "Percentual de Finos (%)",
+        "specification": "321312 ",
+        "result": "-",
+        "parameter_id": "U_51_PercentualFinos",
+        "sequence": 31
+      }
+    ],
+    "number_certificate": "53622"
+  },
+  {
+    "isFreeSample": null,
+    "language": "PT",
+    "company_id": 1,
+    "company_name": "SOORO RENNER NUTRIÇÃO S/A - MATRIZ",
+    "language_description": "Português",
+    "id_product": "P100054",
+    "description_product": "WPC34 - Concentrado Proteico De Soro De Leite Em Pó 34%",
+    "type": "NF",
+    "batch": "PS23020045",
+    "id_partner": "C00532",
+    "description_partner": "Hexus Foods Ltda",
+    "address_partner": "RodoviaRS 240, km 6,407  93180000-Portão-RS BRASIL",
+    "certificate_review": "00",
+    "item_specification": "P1-ET-CQ-047",
+    "quantity": 1500,
+    "number_nf": 126633,
+    "date_manufacturing": "01/11/2023",
+    "date_due": "01/11/2025",
+    "date_test": "01/11/2023",
+    "date_print": "01/10/2024",
+    "comments": "Teor de sódio valor garantido - Resultado de coliformes totais e termotolerantes refere-se ao método NMP - ISO 4831",
+    "responsible_name": "Iriane J. Henrichsen da Silva",
+    "responsible_post": "Coordenadora de Controle de Qualidade",
+    "description_company": "Sooro Renner Nutrição S/A SIF 1328",
+    "address": "(BR 163, Km 283,8 - Marechal Cândido Rondon/PR - CEP 85960-000) ",
+    "date_approval": "13/02/2019",
+    "form_review": "00",
+    "responsible_register": "P1-RC-CQ-071",
+    "item_table": [
+      {
+        "method_description": "ISO 8586:2016; 13299:2017; 5492:2017",
+        "parameter_description": "¹Aspecto, ¹Cor, ¹Sabor e ¹Odor ",
+        "specification": "¹Aspecto, ¹Cor, ¹Sabor e ¹Odor ",
+        "result": "Característico",
+        "parameter_id": "U_1_Aspecto",
+        "sequence": 1
+      },
+      {
+        "method_description": "Gravimetria por balança halogenada - Isengard, Prager (2003)",
+        "parameter_description": "¹Umidade (%) ",
+        "specification": "Gravimetria por balança halogenada - Isengard, Prager, ( ",
+        "result": "2,09",
+        "parameter_id": "U_4_Umidade1",
+        "sequence": 2
+      },
+      {
+        "method_description": "ISO 8967:2005 (IDF 134:2005)",
+        "parameter_description": "¹Densidade compactada (g/cm³ ",
+        "specification": "¹Densidade compactada (g/cm³ ",
+        "result": "-",
+        "parameter_id": "U_29_DensidadeCompac",
+        "sequence": 3
+      },
+      {
+        "method_description": "ISO 11869:2012 (IDF 150); AOAC 947.05",
+        "parameter_description": "Acidez (% ácido lático)",
+        "specification": "Acidez (% ácido lático)",
+        "result": "0,189",
+        "parameter_id": "U_6_Acidez",
+        "sequence": 4
+      },
+      {
+        "method_description": "Diferenciado Titulação Fenolfetaleína",
+        "parameter_description": "¹Acidez (% de ácido lático diferenciado)",
+        "specification": "¹Acidez (% de ácido lático diferenciado)",
+        "result": "0,06",
+        "parameter_id": "U_7_AcidezL",
+        "sequence": 5
+      },
+      {
+        "method_description": "Método Mojonnier - ISO 1736:2008",
+        "parameter_description": "Gordura(%) ",
+        "specification": "Gordura Saturada ",
+        "result": "0,76",
+        "parameter_id": "U_31_Gordura",
+        "sequence": 6
+      },
+      {
+        "method_description": "Adaptado de IDF129A:2005 - ISO8156:2005",
+        "parameter_description": "¹Insolubilidade (mL)",
+        "specification": "¹Insolubilidade (mL)",
+        "result": "0,01",
+        "parameter_id": "U_26_Insolubilidade",
+        "sequence": 7
+      },
+      {
+        "method_description": "Gravimetria - ISO 5545 - IDF90 (2008)",
+        "parameter_description": "Cinzas (sais minerais %) ",
+        "specification": "Cinzas (sais minerais %) ",
+        "result": "4,56",
+        "parameter_id": "U_9_Cinzas",
+        "sequence": 8
+      },
+      {
+        "method_description": "Método Dumas - LECO, 2014",
+        "parameter_description": "¹Proteína Base Úmida ",
+        "specification": "base umida ",
+        "result": "10,78",
+        "parameter_id": "U_11_ProteinaBU",
+        "sequence": 9
+      },
+      {
+        "method_description": "Cromatografia (HPLC)",
+        "parameter_description": "Teor de Lactose ",
+        "specification": "Teor de Lactose ",
+        "result": "82,07",
+        "parameter_id": "U_10_TeorLactose",
+        "sequence": 10
+      },
+      {
+        "method_description": "MAPA, 2019",
+        "parameter_description": "pH (Solução 10%",
+        "specification": "pH (Solução 10%",
+        "result": "6,30",
+        "parameter_id": "U_24_pHSolucao",
+        "sequence": 11
+      },
+      {
+        "method_description": "Diferença (% Base úmida*100)/(100- %Umidade)",
+        "parameter_description": "Diferença (% Base úmida*100)/(100- %Umidade)",
+        "specification": "Diferença (% Base úmida*100)/(100- %Umidade)",
+        "result": "11,00",
+        "parameter_id": "U_12_ProteinaBS",
+        "sequence": 12
+      },
+      {
+        "method_description": "American Dry Products Institute (ADPI) - 1990",
+        "parameter_description": "Sedimentos (disco A, B ou C)",
+        "specification": "Sedimentos (disco A, B ou C)",
+        "result": "A",
+        "parameter_id": "U_13_Sendimentos",
+        "sequence": 13
+      },
+      {
+        "method_description": "GEA NIRO METHOD N° 6A, 2005",
+        "parameter_description": "Dispersibilidade ",
+        "specification": "Dispersibilidade ",
+        "result": "-",
+        "parameter_id": "U_30_Dispersib",
+        "sequence": 14
+      },
+      {
+        "method_description": "ISO 4833-2 (2013)",
+        "parameter_description": "Aeróbios Mesófilos ",
+        "specification": "Aeróbios Mesófilos /(UFC)",
+        "result": "100",
+        "parameter_id": "U_14_AerobiosM",
+        "sequence": 15
+      },
+      {
+        "method_description": "Plaqueamento - UFC/g - APHA:2004 CAP. 07",
+        "parameter_description": "Coliformes totais (UFC/g)",
+        "specification": "Coliformes totais (UFC/g)",
+        "result": "<0,3",
+        "parameter_id": "U_32_ColiformesT",
+        "sequence": 16
+      },
+      {
+        "method_description": "ISO 21528-2 (2020)",
+        "parameter_description": "¹Enterobactérias ",
+        "specification": "¹Enterobactérias ",
+        "result": "<10",
+        "parameter_id": "U_17_Enterobacterias",
+        "sequence": 17
+      },
+      {
+        "method_description": "ISO 6888-1 (2019)",
+        "parameter_description": "Estafilococos Coagulase Positiva (UFC/g)",
+        "specification": "Estafilococos Coagulase Positiva (UFC/g)",
+        "result": "Ausente",
+        "parameter_id": "U_40_Enteroxinas",
+        "sequence": 18
+      },
+      {
+        "method_description": "Plaqueamento - Compact Dry YM (AOAC N° 100401, 2014)",
+        "parameter_description": "¹Bolores e leveduras (UFC/g)",
+        "specification": "¹Bolores e leveduras (UFC/g)",
+        "result": "<10",
+        "parameter_id": "U_18_Bolores",
+        "sequence": 19
+      },
+      {
+        "method_description": "ISO 7932 (2016)",
+        "parameter_description": "¹Bacillus ",
+        "specification": "¹Bacillus ",
+        "result": "<100",
+        "parameter_id": "U_19_Bacillus",
+        "sequence": 20
+      },
+      {
+        "method_description": "MDS 3M - AOAC 2016.01",
+        "parameter_description": "Salmonella sp (valor garantido)",
+        "specification": "¹Salmonella sp (valor garantido)",
+        "result": "Ausente",
+        "parameter_id": "U_20_Salmonella",
+        "sequence": 21
+      },
+      {
+        "method_description": "MDS 3M - AOAC 2016.08",
+        "parameter_description": "Listeria monocytogenes (valor garantido ",
+        "specification": "Listeria monocytogenes (valor garantido ",
+        "result": "Ausente",
+        "parameter_id": "U_21_Listeria",
+        "sequence": 22
+      },
+      {
+        "method_description": "Laboratório Externo",
+        "parameter_description": "Micotoxinas (Aflatoxina M1) (mcg/kg) (valor",
+        "specification": "Micotoxinas (Aflatoxina M1) (mcg/kg) (valor garantido)",
+        "result": "< Limite Máximo Tolerado",
+        "parameter_id": "U_42_Micotoxina",
+        "sequence": 23
+      },
+      {
+        "method_description": "Técnica do NMP (Detecção) - ISO 7251:2005",
+        "parameter_description": "¹Escherichia coli (valor garantido)",
+        "specification": "¹Escherichia coli (valor garantido)",
+        "result": "Ausente",
+        "parameter_id": "U_28_Escherichia",
+        "sequence": 24
+      },
+      {
+        "method_description": "Instrução Normativa N° 05 DE 23/04/2019 - PNCRC 2019",
+        "parameter_description": "Resíduos de Antibióticos (valor garantido)",
+        "specification": "Resíduos de Antibióticos (valor garantido)",
+        "result": "Ausente",
+        "parameter_id": "U_39_Residuos",
+        "sequence": 25
+      },
+      {
+        "method_description": "Fotômetro de Chama, Digimed.",
+        "parameter_description": "Sódio (mg/100g)",
+        "specification": "Sódio (mg/100g)",
+        "result": "369",
+        "parameter_id": "U_36_Sodio",
+        "sequence": 26
+      },
+      {
+        "method_description": "VIDAS Staph Enterotoxin II - versão 05 (2010) - Lab. Externo",
+        "parameter_description": "²Metais Pesados (Arsenio, Cadmio, Chumbo e Cobre) (mg/kg) (valor",
+        "specification": "²Metais Pesados (Arsenio, Cadmio, Chumbo e Cobre) (mg/kg) (valor",
+        "result": "< Limite Máximo Tolerado",
+        "parameter_id": "U_41_MetaisPesado",
+        "sequence": 27
+      },
+      {
+        "method_description": "American Dry Products Institute -ADPI (1990)",
+        "parameter_description": "Cloretos (%)",
+        "specification": "312 ",
+        "result": "0,25",
+        "parameter_id": "U_27_Cloretos",
+        "sequence": 28
+      },
+      {
+        "method_description": "APHA (2015)",
+        "parameter_description": "Higro Caking",
+        "specification": "12312 ",
+        "result": "-",
+        "parameter_id": "U_47_HigroCaking",
+        "sequence": 29
+      },
+      {
+        "method_description": "AOAC (HPLC)",
+        "parameter_description": "Higro Helco",
+        "specification": "312312 ",
+        "result": "-",
+        "parameter_id": "U_48_HigroRelco",
+        "sequence": 30
+      },
+      {
+        "method_description": "American Dry Products Institute (ADPI) - 1990",
+        "parameter_description": "Percentual de Finos (%)",
+        "specification": "321312 ",
+        "result": "-",
+        "parameter_id": "U_51_PercentualFinos",
+        "sequence": 31
+      }
+    ],
+    "number_certificate": "53622"
+  }
+]
 }

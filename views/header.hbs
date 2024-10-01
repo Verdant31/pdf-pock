@@ -1,11 +1,13 @@
 <style>
-  html,body,div{-webkit-print-color-adjust: exact} span.logo { height: 80px;
-  width:200px; content: url("${logo}")}
+  html,body,div{-webkit-print-color-adjust: exact}
 </style>
 <header
-  style="font-size:14px;width:100%; background:#d3540b;height:95px; display:flex; align-items:center"
+  style="font-size:8px;width:100%; background:#d3540b;height:95px; justify-content:center; display:flex; align-items:center"
 >
-  <span class="logo"></span>
-  <h1>{{this.data.info1}}</h1>
-  <h1>{{this.data.info2}}</h1>
+  <img src={{this.data.logo}} style="height:80px;width:80px" />
+  <div>
+    <h1>{{this.data.company_name}}</h1>
+    <h1>{{this.data.company_id}}</h1>
+    <h1>BATCH:{{this.data.batch}}</h1>
+  </div>
 </header>

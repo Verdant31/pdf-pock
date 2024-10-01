@@ -1,61 +1,38 @@
-<!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PDF Gerado</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin-inline: 20px;
-    }
-    header, footer {
-      width: 100%;
-      text-align: center;
-      position: fixed;
-    }
-    header {
-      top: 0;
-    }
-    footer {
-      bottom: 0;
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-    }
-    table, th, td {
-      border: 1px solid black;
-    }
-    th, td {
-      padding: 10px;
-      text-align: left;
-    }
-    th {
-      background-color: #f2f2f2;
-    }
-  </style>
-        <style>
-      html,body,div{-webkit-print-color-adjust: exact}
-      span.logo { content: url("https://sooro.com.br/wp-content/uploads/2020/09/sooro-by-the-way.png")}
-      </style>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PDF Gerado</title>
+    <style>
+      body { font-family: Arial, sans-serif; margin-inline: 20px; } header,
+      footer { width: 100%; text-align: center; position: fixed; } header { top:
+      0; } footer { bottom: 0; } table { width: 100%; border-collapse: collapse;
+      } table, th, td { border: 1px solid black; } th, td { padding: 10px;
+      text-align: left; } th { background-color: #f2f2f2; }
+    </style>
+    <style>
+      html,body,div{-webkit-print-color-adjust: exact} span.logo { content:
+      url("https://sooro.com.br/wp-content/uploads/2020/09/sooro-by-the-way.png")}
+    </style>
+  </head>
+  <body>
     <table>
       <thead>
         <tr>
           <th>Parâmetro</th>
           <th>Valor</th>
+          <th>Header</th>
         </tr>
       </thead>
       <tbody>
         {{#each data}}
-        <tr>
-          <td>{{this.param}}</td>
-          <td>{{this.value}}</td>
-        </tr>
+          <tr>
+            <td>{{this.param}}</td>
+            <td>{{this.value}}</td>
+            <td>{{this.header}}</td>
+          </tr>
         {{/each}}
       </tbody>
     </table>
-</body>
+  </body>
 </html>
